@@ -46,22 +46,17 @@ cyclones, demonstrating effective separation in the learned feature space.
 ```bash
 Cyclone-Anomaly-Detection/
 │
-├── notebooks/
-│   └── Cyclone_Anomaly_Detection.ipynb
+├── Cyclone_Path_Anomaly_Detection.ipynb
 │
-├── src/
-│   ├── feature_extraction.py
-│   ├── model.py
-│   ├── scoring.py
-│   └── utils.py
-│
-├── Graphical_Results/
-│   ├── anomaly_score_distribution.png
-│   └── normal_vs_anomaly.png
+├── Plots/
+│   ├── CURVING_Apr22_074107(Gati)_plot.png
+│   ├── CURVING_Apr22_074108(Shaheen)_plot.png
+│   ├── CURVING_Apr22_074172(Phethai)_plot.png
+│   ├── CURVING_Jan22_072150(Kyaar)_plot.png
+│   ├── CURVING_Oct21_070311(Tauktae)_plot.png
+│   └── TEST_Burevi_plot.png
 │
 ├── data/
 │   └── README.md
 │
-├── requirements.txt
 └── README.md
-
