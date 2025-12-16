@@ -43,3 +43,23 @@ cyclones, demonstrating effective separation in the learned feature space.
 ---
 
 ## Project Structure
+Cyclone-Anomaly-Detection/
+│
+├── notebooks/
+│   └── Method_B_Cyclone_Anomaly_Detection.ipynb
+│
+├── src/
+│   ├── feature_extraction.py
+│   ├── model.py
+│   ├── scoring.py
+│   └── utils.py
+│
+├── Graphical_Results/
+│   ├── anomaly_score_distribution.png
+│   ├── normal_vs_anomaly.png
+│
+├── data/
+│   └── README.md
+│
+├── requirements.txt
+└── README.md
