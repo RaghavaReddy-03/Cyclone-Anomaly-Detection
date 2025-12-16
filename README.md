@@ -38,7 +38,6 @@ normal cyclone behavior and flags deviations as anomalies.
 The anomaly scores for curving cyclones are consistently higher than those for normal
 cyclones, demonstrating effective separation in the learned feature space.
 
-![Anomaly Score Distribution](Graphical_Results/anomaly_score_distribution.png)
 
 ---
 
