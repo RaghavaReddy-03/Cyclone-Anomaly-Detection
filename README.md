@@ -43,6 +43,8 @@ cyclones, demonstrating effective separation in the learned feature space.
 ---
 
 ## Project Structure
+
+```bash
 Cyclone-Anomaly-Detection/
 │
 ├── notebooks/
@@ -56,10 +58,11 @@ Cyclone-Anomaly-Detection/
 │
 ├── Graphical_Results/
 │   ├── anomaly_score_distribution.png
-│   ├── normal_vs_anomaly.png
+│   └── normal_vs_anomaly.png
 │
 ├── data/
 │   └── README.md
 │
 ├── requirements.txt
 └── README.md
+
