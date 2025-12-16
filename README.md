@@ -11,7 +11,7 @@ feature space.
 
 ---
 
-## Methodology (Method-B)
+## Methodology 
 - Single-frame deep feature extraction using a CNN backbone
 - PANDA-based compact feature representation
 - Elastic Weight Consolidation (EWC) for model stability
@@ -48,7 +48,7 @@ cyclones, demonstrating effective separation in the learned feature space.
 Cyclone-Anomaly-Detection/
 │
 ├── notebooks/
-│   └── Method_B_Cyclone_Anomaly_Detection.ipynb
+│   └── Cyclone_Anomaly_Detection.ipynb
 │
 ├── src/
 │   ├── feature_extraction.py
