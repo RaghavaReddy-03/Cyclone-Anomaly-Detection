@@ -1,29 +1,45 @@
 # Cyclone-Anomaly-Detection
-Unsupervised cyclone trajectory anomaly detection using deep feature learning and PANDA-based scoring
+
+## Overview
 This project presents an **unsupervised cyclone trajectory anomaly detection framework**
-that leverages deep feature representations extracted from satellite imagery and a
-PANDA-based scoring mechanism. The model is trained exclusively on normal (non-curving)
-cyclone trajectories and identifies anomalous curving patterns based on deviation
-in learned feature space.
+that leverages **deep feature representations** extracted from satellite imagery and a
+**PANDA-based scoring mechanism**.
 
+The model is trained **exclusively on normal (non-curving) cyclone trajectories** and
+identifies anomalous **curving cyclone patterns** based on deviations in the learned
+feature space.
 
-Cyclone-Anomaly-Detection/
-│
-├── data/
-│   ├── README.md
-│
-├── notebooks/
-│   └── Method_B_Cyclone_Anomaly_Detection.ipynb
-│
-├── src/
-│   ├── feature_extraction.py
-│   ├── model.py
-│   ├── scoring.py
-│   └── utils.py
-│
-├── Graphical_Results/
-│   ├── anomaly_score_distribution.png
-│   ├── normal_vs_anomaly.png
-│
-├── requirements.txt
-└── README.md
+---
+
+## Methodology (Method-B)
+- Single-frame deep feature extraction using a CNN backbone
+- PANDA-based compact feature representation
+- Elastic Weight Consolidation (EWC) for model stability
+- k-NN distance-based anomaly scoring
+
+---
+
+## Why Unsupervised?
+Cyclone trajectory anomalies are rare and highly diverse, making labeled anomaly data
+scarce and unreliable.  
+This motivates a **one-class, unsupervised learning setup**, where the model learns only
+normal cyclone behavior and flags deviations as anomalies.
+
+---
+
+## Dataset
+- **Training:** Non-curving cyclones (normal)
+- **Testing (Normal):** Unseen non-curving cyclones
+- **Testing (Anomalous):** Curving cyclones
+
+---
+
+## Results
+The anomaly scores for curving cyclones are consistently higher than those for normal
+cyclones, demonstrating effective separation in the learned feature space.
+
+![Anomaly Score Distribution](Graphical_Results/anomaly_score_distribution.png)
+
+---
+
+## Project Structure
